@@ -1,0 +1,31 @@
+
+
+
+body{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .hospi{
+	margin-left : 350px;
+	height: 300px;
+
+	margin-top: 250px;
+    margin-bottom: 300px;
+	width: 400px;
+	border: black 1px;
+	border-radius: 8px;
+	border: 5px solid black;
+
+
+
+}
+.reales{
+	margin-right : 100px;
+	margin-left: 30px;
+	height: 300px;
+	margin-bottom: 300px;
+	margin-top: 250px;
+	width: 400px;
+	border-radius: 8px;
+	border: 5px solid black;
+
+}

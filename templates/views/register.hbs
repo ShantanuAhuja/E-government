@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/navbar.css">
+    	<link rel="stylesheet" href="./css/signup.css">
+
+	<title>Document</title>
+</head>
+<body>
+
+	<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+<body>
+  {{>navbar}}
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="/register" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name"  required name="fname">
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required  name="username">
+          </div>
+          <div class="input-box">
+            <span class="details">Aadhar Card</span>
+            <input type="number"  minlength="12" placeholder="Enter your Aadhar Number" required name="aadhar">
+          </div>
+          <div class="input-box">
+            <span class="details">Age</span>
+            <input type="number" placeholder="Enter your number" required  name="age">
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required  name="password">
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required  name="confirmpassword">
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1" value="Male">
+          <input type="radio" name="gender" id="dot-2" value="Female">
+          <input type="radio" name="gender" id="dot-3" value="Others">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+
+
+		 <div class="blood-details">
+          <input type="radio" name="blood" id="dot-11" value="A+">
+          <input type="radio" name="blood" id="dot-21" value="A-">
+          <input type="radio" name="blood" id="dot-31" value="B+">
+		  <input type="radio" name="blood" id="dot-41" value="B-">
+		  <input type="radio" name="blood" id="dot-51" value="AB+">
+		  <input type="radio" name="blood" id="dot-61" value="AB-">
+		  <input type="radio" name="blood" id="dot-71" value="O+">
+		  <input type="radio" name="blood" id="dot-81" value="O-">
+          <span class="blood-title">Blood Group</span>
+          <div class="category">
+            <label for="dot-11">
+            <span class="dot oneone"></span>
+            <span class="blood">A+</span>
+          </label>
+		  <label for="dot-21">
+            <span class="dot twoone"></span>
+            <span class="blood">A-</span>
+          </label>
+          <label for="dot-31">
+            <span class="dot threeone"></span>
+            <span class="blood">B+</span>
+          </label>
+		  <label for="dot-41">
+            <span class="dot fourone"></span>
+            <span class="blood">B-</span>
+          </label>
+          <label for="dot-51">
+            <span class="dot fiveone"></span>
+            <span class="blood">AB+</span>
+            </label>
+			<label for="dot-61">
+            <span class="dot sixone"></span>
+            <span class="blood">AB-</span>
+          </label>
+		  </label>
+			<label for="dot-71">
+            <span class="dot sevenone"></span>
+            <span class="blood">O+</span>
+          </label>
+		  <label for="dot-81">
+            <span class="dot eightone"></span>
+            <span class="blood">O-</span>
+          </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+		  <p>Already Registered ? <a href="/">Login</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+
+</body>
+</html>
